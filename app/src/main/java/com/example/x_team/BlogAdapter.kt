@@ -16,6 +16,9 @@ class BlogAdapter() : RecyclerView.Adapter<BlogAdapter.vH>() {
         val v=inflater.inflate(R.layout.row_blogs,null)
         return  vH(v)
     }
+    fun setData(users: List<Response>){
+        
+    }
 
     override fun onBindViewHolder(holder: vH, position: Int) {
 

@@ -10,14 +10,14 @@ import androidx.recyclerview.widget.RecyclerView
 
 class BlogAdapter() : RecyclerView.Adapter<BlogAdapter.vH>() {
 
-
+    private var response: List<Response> = emptyList()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): vH {
         val inflater=LayoutInflater.from(parent.context)
         val v=inflater.inflate(R.layout.row_blogs,null)
         return  vH(v)
     }
-    fun setData(users: List<Response>){
-        
+    fun setData(response: List<Response>){
+        this.response=response
     }
 
     override fun onBindViewHolder(holder: vH, position: Int) {
@@ -30,7 +30,7 @@ class BlogAdapter() : RecyclerView.Adapter<BlogAdapter.vH>() {
     inner class vH(itemview: View): RecyclerView.ViewHolder(itemview){
 
         fun bind(){
-
+           
 
         }
 

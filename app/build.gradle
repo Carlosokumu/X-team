@@ -49,5 +49,9 @@ dependencies {
     //Network ->OkHTTP,retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.7.0'
     implementation "com.squareup.okhttp3:okhttp:4.3.1"
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.0'
+    //Koin-> easy to use dependency injection for android
+    implementation "org.koin:koin-android:2.1.1"
+    implementation "org.koin:koin-android-viewmodel:2.1.1"
 
 }

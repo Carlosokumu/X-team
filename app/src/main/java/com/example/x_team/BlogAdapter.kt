@@ -30,7 +30,7 @@ class BlogAdapter() : RecyclerView.Adapter<BlogAdapter.vH>() {
     inner class vH(itemview: View): RecyclerView.ViewHolder(itemview){
 
         fun bind(){
-           
+
 
         }
 

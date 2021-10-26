@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">X-team</string>
+    <string name="intro">
+        Android studio is a great tool for development of android applications,
+        it is used in most commercial apps.
+
+    </string>
+</resources>

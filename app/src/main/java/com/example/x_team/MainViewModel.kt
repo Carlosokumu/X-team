@@ -13,6 +13,7 @@ class MainViewModel(val apiservice: ApiService):ViewModel() {
             emit(ApiModel.success(data = apiservice.getBlog()))
         }
         catch (exception: Exception){
+            emit(ApiModel.error(data = null,message = "Couldn't refresh"))
         }
 
     }

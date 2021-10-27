@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <declare-styleable name="ProgressButton">
+            <attr name="text" format="string" />
+            <attr name="loading" format="boolean"/>
+            <attr name="enabled" format="boolean"/>
+            <attr name="buttonText" format="string" />
+            <attr name="lottie_resId" format="reference"/>
+        </declare-styleable>
+        <declare-styleable name="SwitcherView">
+            <attr name="contentView" format="reference" />
+
+        </declare-styleable>
+        <declare-styleable name="CustomEditText">
+            <attr name="font_name">
+                <enum value="1" name="regular"/>
+                <enum value="2" name="bold"/>
+                <enum value="3" name="light"/>
+            </attr>
+        </declare-styleable>
+</resources>

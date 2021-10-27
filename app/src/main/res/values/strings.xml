@@ -5,4 +5,5 @@
         it is used in most commercial apps.
 
     </string>
+    <string name="wrong">Something Went Wrong.Try Again</string>
 </resources>

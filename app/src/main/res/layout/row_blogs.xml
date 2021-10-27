@@ -20,15 +20,29 @@
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:layout_height="match_parent">
-             <ImageView
-            android:id="@+id/apartmentPics"
+             <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+                 app:iss_placeholder="@raw/pushup"
             android:scaleType="centerCrop"
             android:src="@drawable/x"
             android:visibility="visible" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
         <TextView
-            android:id="@+id/rate"
+            android:id="@+id/desc"
             android:layout_width="match_parent"
             android:text="@string/intro"
             android:layout_height="wrap_content"

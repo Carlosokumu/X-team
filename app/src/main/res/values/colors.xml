@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="whiteuniv">#e9e6f5</color>
+    <color name="link">#0a80d1</color>
 </resources>

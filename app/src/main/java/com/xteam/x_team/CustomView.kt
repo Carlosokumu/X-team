@@ -1,4 +1,4 @@
-package com.example.x_team
+package com.xteam.x_team
 
 import android.content.Context
 import android.util.AttributeSet

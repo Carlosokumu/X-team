@@ -1,16 +1,14 @@
-package com.example.x_team
+package com.xteam.x_team
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
 import org.koin.android.viewmodel.ext.android.viewModel
-import com.example.x_team.MainViewModel as MainViewModel1
+import com.xteam.x_team.MainViewModel as MainViewModel1
 
 class MainActivity : AppCompatActivity(), OnLinkClicked {
     private val viewModel by viewModel<MainViewModel1>()

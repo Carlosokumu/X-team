@@ -1,4 +1,4 @@
-package com.example.x_team
+package com.xteam.x_team
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

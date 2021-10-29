@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -9,7 +11,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.x_team"
+        applicationId "com.xteam.x_team"
         minSdkVersion 22
         targetSdkVersion 31
         versionCode 1
@@ -65,5 +67,9 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:4.3.1"
     //imageslider
     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
-
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }

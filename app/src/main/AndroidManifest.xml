@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.x_team">
+    package="com.xteam.x_team">
      <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -8,12 +8,13 @@
         android:label="X-team"
         android:roundIcon="@mipmap/ic_team"
         android:supportsRtl="true"
-        android:name=".Xteam"
+        android:name="com.xteam.x_team.Xteam"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Xteam">
         <activity
             android:screenOrientation="portrait"
-            android:name=".Splash">
+            android:name="com.xteam.x_team.Splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +23,8 @@
         </activity>
         <activity
             android:screenOrientation="portrait"
-            android:name=".MainActivity">
+            android:name="com.xteam.x_team.MainActivity"
+            android:exported="true">
 
         </activity>
     </application>

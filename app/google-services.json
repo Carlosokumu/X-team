@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935869854719",
+    "project_id": "x-team-46bbe",
+    "storage_bucket": "x-team-46bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935869854719:android:05abb2f2226feae7d5adca",
+        "android_client_info": {
+          "package_name": "com.xteam.x_team"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935869854719-jhkeh76rs9h35fr6c15s4f7fuujp3fvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeL6WUFNcQXvy5NyrfLiYgKaRzvUb-tgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935869854719-jhkeh76rs9h35fr6c15s4f7fuujp3fvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

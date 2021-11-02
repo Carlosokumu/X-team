@@ -1,4 +1,4 @@
-package com.example.x_team
+package com.xteam.x_team
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData

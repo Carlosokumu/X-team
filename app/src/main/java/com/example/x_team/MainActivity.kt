@@ -27,29 +27,7 @@ class MainActivity : AppCompatActivity(), OnLinkClicked {
             this.recreate()
         }
         setUpView()
-        //DeepLinkRouter.handleRoute(this, Uri.parse("https://youtube.com"))
-        //viewModel = ViewModelProvider(this).get(MainViewModel1::class.java)
-        /*
-        viewModel.getBlog().observe(this, Observer {
-            it.let {apiModel ->
-                run {
-                    when (apiModel.status) {
-                    Status.SUCCESS ->{
-
-
-                }
-                    Status.FAILURE ->{
-
-                }
-                   Status.LOADING ->{
-
-                }
-                }
-            }
-        }
-        })
-
-         */
+  
     }
     private fun setUpView(){
         val adapter=BlogAdapter(this)

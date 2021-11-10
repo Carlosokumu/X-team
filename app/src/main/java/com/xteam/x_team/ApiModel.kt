@@ -1,4 +1,4 @@
-package com.example.x_team
+package com.xteam.x_team
 
 data  class ApiModel<out T>(val status: Status,val data: T?,val message: String?) {
     companion object {

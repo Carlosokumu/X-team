@@ -5,7 +5,7 @@
     android:background="@color/whiteuniv"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.x_team.MainActivity">
+    tools:context="com.xteam.x_team.MainActivity">
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"

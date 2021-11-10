@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.xteam.x_team.databinding.ActivityMainBinding
 import org.koin.android.viewmodel.ext.android.viewModel
+import timber.log.Timber
 import com.xteam.x_team.MainViewModel as MainViewModel1
 
 class MainActivity : AppCompatActivity(), OnLinkClicked {
@@ -20,8 +21,7 @@ class MainActivity : AppCompatActivity(), OnLinkClicked {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         hideBar()
-      //  setContentView(R.layout.activity_main)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+        setContentView(R.layout.activity_main)
         val recyclerView=findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.adapter=BlogAdapter(this)
         recyclerView.layoutManager=LinearLayoutManager(this)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), OnLinkClicked {
                 customSwitcher.showApiStatus(apiModel = apiModel,adapter = adapter)
                 if (apiModel.status == Status.SUCCESS) {
                     adapter.setData(it.data!!)
-                    //Timber.e(apiModel.data.size.toString())
+                    Timber.e(apiModel.data?.size.toString())
                 }
             }
         })

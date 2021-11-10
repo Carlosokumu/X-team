@@ -79,6 +79,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.4.2')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
     //timber-> for extensive logger for android(Debug only)
     implementation 'com.jakewharton.timber:timber:4.7.1'
 

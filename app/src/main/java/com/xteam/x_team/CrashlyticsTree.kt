@@ -7,7 +7,7 @@ import timber.log.Timber
 
 
 /*
-   Send Logs to Firebase
+   Send/Logs Logs to Firebase
  */
 class CrashlyticsTree : Timber.Tree() {
 

@@ -1,5 +1,6 @@
 package com.xteam.x_team
 
+import com.example.x_team.BuildConfig
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
